@@ -17,13 +17,18 @@ code {
   margin: 0;
   padding: 0;
 }
-/* .hero-img{
-  /* background: url(../src/images/img-hero.png); 
-} */
+.hero-img img{
+  width:100% ;
+} 
 .hero-header{
   color: #3E54AC;
 }
 .hero-btn{
   background-color: #3E54AC;
   border-radius: 20px;
+}
+.link-btn{
+  background-color: #BFACE2;
+  border-radius: 20px;
+  border: 1px solid #BFACE2;
 }
