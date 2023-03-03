@@ -3,7 +3,7 @@ import Row  from "react-bootstrap/Row"
 import Col  from "react-bootstrap/Col"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-// import  img  from "./images/new-hero.png"
+import  img  from "./images/products/gadet-1.jpg"
 const Products = () => {
   return (
     <div>
@@ -12,7 +12,7 @@ const Products = () => {
             <Row>
                 <Col className="col-4 g-2">
                 <Card style={{ width: 'rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={img}  />  
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
