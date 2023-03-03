@@ -8,13 +8,15 @@ const Hero = () => {
   return (
     <div className=" hero-section">
        <Container>
-       <Row className>
-        <Col className="col-6 m-3">
-          <p className="fs-1 fw-bold hero-header">Grab up to 50% off on your first purchase</p>
-          <Button className="hero-btn">Buy Now</Button>
+       <Row className = "flex-column flex-md-row">
+        <Col className="col ">
+          <div className=" m-3">
+          <p className="fs-1 fw-bold hero-header ">Grab up to 50% off on your first purchase</p>
+          <Button className="hero-btn ">Buy Now</Button>  
+          </div>
         </Col> 
-        <Col className="hero-img ">
-          <img src={img} className="img-fluid" alt=""/>
+        <Col className=" col  hero-img ">
+          <img src={img} className="object-fit-contain" alt=""/>
         </Col>
       </Row>
        </Container>

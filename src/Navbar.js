@@ -10,9 +10,9 @@ function OffcanvasExample() {
   return (
     <div>
       
-        <Navbar bg="light" expand="lg" className="mb-3">
+        <Navbar bg="light" expand="lg" className="">
           <Container fluid>
-            <Navbar.Brand href="#" className='fw-bold'>Shop-it</Navbar.Brand>
+            <Navbar.Brand href="#" className='fw-bold hero-header'>GadgetBoom</Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand`}
