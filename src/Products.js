@@ -1,20 +1,23 @@
 import  Container  from "react-bootstrap/Container"
 import Row  from "react-bootstrap/Row"
-import Col  from "react-bootstrap/Col"
+import Col  from "react-bootstrap/Col" 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import  img  from "./images/products/gadet-1.jpg"
+import  gadgets from './images/index.js'
+// import  img  from "./images/products/gadget-1.jpg"
+// import  img2  from "./images/products/gadget-2.jpg"
+// import  img3  from "./images/products/gadget-3.jpg"
 const Products = () => {
   return (
     <div>
-        <h1 className="fw-bold m-3">Products For You </h1>
+        <h1 className="fw-bold m-3">Products For You! </h1>
         <Container>
-            <Row>
+            <Row className="products-box">
                 <Col className="col-4 g-2">
                 <Card style={{ width: 'rem' }}>
-      <Card.Img variant="top" src={img}  />  
+      <Card.Img variant="top" src={gadgets.gadget1} className ="w-10"  alt = "" />  
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Card Title gg</Card.Title>
         <Card.Text>
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
@@ -25,7 +28,7 @@ const Products = () => {
                 </Col>
                 <Col className="col-4 g-2">
                 <Card style={{ width: 'rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={gadgets.gadget2} className ="w-10"  alt = ""  />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -38,7 +41,7 @@ const Products = () => {
                 </Col>
                 <Col className="col-4 gx-1">
                 <Card style={{ width: 'rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -51,7 +54,7 @@ const Products = () => {
                 </Col>
                 <Col className="col-4 g-2">
                 <Card style={{ width: 'rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -64,28 +67,7 @@ const Products = () => {
                 </Col> 
 
                
-                <Col className="col-4 g-2">
-                <Card style={{ width: 'rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-      </Card.Body>
-    </Card>
-                </Col>
-
-                <Col className="col-4"></Col>
-                <Col className="col-4"></Col>
-                <Col className="col-4"></Col>
-                <Col className="col-4"></Col>
-                <Col className="col-4"></Col>
-                <Col className="col-4"></Col>
-                <Col className="col-4"></Col>
-                <Col className="col-4"></Col>
+               
             </Row>
         </Container>
     </div>

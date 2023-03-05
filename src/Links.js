@@ -10,12 +10,12 @@ import Col  from "react-bootstrap/Col"
 
 const Links = () => {
   return (
-    <Container className='m-5'>
-        <Row>
-            <Col className='col-9'>
+    < div className='d-flex justify-content-between m-5'>
+      
+            <Col className='col-8'>
             <Swiper
       spaceBetween={10}
-      slidesPerView={5}
+      slidesPerView={5.5}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
     >
@@ -26,14 +26,15 @@ const Links = () => {
       <SwiperSlide> <Button className="link-btn">Headsets</Button></SwiperSlide>
       <SwiperSlide> <Button className="link-btn">Headsets</Button></SwiperSlide>
       <SwiperSlide> <Button className="link-btn">Headsets</Button></SwiperSlide>
+      <SwiperSlide> <Button className="link-btn">Headsets</Button></SwiperSlide>
       ...
     </Swiper>
     </Col>
-     <Col className='col-3'>
-        kk
+     <Col className='col-3 justify-content-end'>
+     <Button className="link-btn">Sort By </Button>
      </Col>
-        </Row>
-    </Container>
+     
+    </div>
    
   )
 }
