@@ -21,7 +21,7 @@ function OffcanvasExample() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand`}>
-                  Offcanvas
+                  Menu
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>

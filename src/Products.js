@@ -10,10 +10,10 @@ import  gadgets from './images/index.js'
 const Products = () => {
   return (
     <div>
-        <h1 className="fw-bold m-3">Products For You! </h1>
+        <h1 className="fw-bold m-3 text-center">Products For You! </h1>
         <Container>
             <Row className="products-box">
-                <Col className="col-4 g-2">
+                <Col className="col-12 col-md-4 p-3 g-2">
                 <Card style={{ width: 'rem' }}>
       <Card.Img variant="top" src={gadgets.gadget1} className ="w-10"  alt = "" />  
       <Card.Body>
@@ -26,7 +26,7 @@ const Products = () => {
       </Card.Body>
     </Card>
                 </Col>
-                <Col className="col-4 g-2">
+                <Col className="col-12 col-md-4 p-3 g-2">
                 <Card style={{ width: 'rem' }}>
       <Card.Img variant="top" src={gadgets.gadget2} className ="w-10"  alt = ""  />
       <Card.Body>
@@ -39,7 +39,7 @@ const Products = () => {
       </Card.Body>
     </Card>
                 </Col>
-                <Col className="col-4 gx-1">
+                <Col className="col-12 col-md-4 p-3 g-2">
                 <Card style={{ width: 'rem' }}>
       <Card.Img variant="top" />
       <Card.Body>
@@ -52,7 +52,7 @@ const Products = () => {
       </Card.Body>
     </Card>
                 </Col>
-                <Col className="col-4 g-2">
+                <Col className="col-12 col-md-4 p-3 g-2">
                 <Card style={{ width: 'rem' }}>
       <Card.Img variant="top" />
       <Card.Body>
