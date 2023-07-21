@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Links from "./components/Links";
 import Navbar from "./components/Navbar"; 
 import Products from "./components/Products";
+import Popular from "./components/Popular";
 function App() {
   return (
     <div className="App">
@@ -9,6 +10,7 @@ function App() {
       <Hero/>
       {/* <Links/> */}
       <Products/>
+      <Popular/>
     </div>
   );
 }
