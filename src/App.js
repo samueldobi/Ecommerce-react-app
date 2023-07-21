@@ -1,7 +1,7 @@
-import Hero from "./Hero";
-import Links from "./Links";
-import Navbar from "./Navbar"; 
-import Products from "./Products";
+import Hero from "./components/Hero";
+import Links from "./components/Links";
+import Navbar from "./components/Navbar"; 
+import Products from "./components/Products";
 function App() {
   return (
     <div className="App">
