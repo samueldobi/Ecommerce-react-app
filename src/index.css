@@ -54,3 +54,7 @@ code {
   background-color: var(--blue);
   ;
 }
+.popular-img img{
+  width: 50%;
+  height: 50%;
+}
