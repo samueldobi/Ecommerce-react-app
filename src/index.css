@@ -62,6 +62,6 @@ code {
 .product-box{
   background-color: #EEEDED;
 }
-/* .product-name{
-  text-align: center;
-} */
+.discount-div img{
+  width: 400px;
+}
