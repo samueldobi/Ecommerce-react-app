@@ -55,9 +55,13 @@ code {
   ;
 }
 .popular-img img{
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
 }
 .product-box{
   background-color: #EEEDED;
 }
+/* .product-name{
+  text-align: center;
+} */
