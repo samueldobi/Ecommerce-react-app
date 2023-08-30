@@ -8,35 +8,17 @@ const Popular = () => {
     <div className="">
         <Container className="popular">
                 <p className="fs-2 fw-bold">Popular Products</p>
-                <Row className=" col-12"> 
-                    <div className="col-12 col-lg-6 d-flex">
-                      <div className="popular-img">
+                <Row className=" col-12 p-3 d-flex justify-content-between"> 
+                    <div className="col-12 col-lg-5 d-flex product-box p-3 my-4">
+                      <div className="popular-img col-4">
                         <img src={gadgets.gadget1} alt="" className="img-fluid " />
                       </div>
                       <div className="popular-text">
                         Product name
                       </div>
                     </div>
-                    <div className="col-12 col-lg-6 d-flex">
-                    <div className="popular-img">
-                        <img src={gadgets.gadget1} alt="" className="img-fluid " />
-                      </div>
-                      <div className="popular-text">
-                        Product name
-                      </div>
-                    </div>
-                </Row>
-                <Row className=" col-12"> 
-                    <div className="col-12 col-lg-6 d-flex">
-                      <div className="popular-img">
-                        <img src={gadgets.gadget1} alt="" className="img-fluid " />
-                      </div>
-                      <div className="popular-text">
-                        Product name
-                      </div>
-                    </div>
-                    <div className="col-12 col-lg-6 d-flex">
-                    <div className="popular-img">
+                    <div className="col-12 col-lg-5 d-flex product-box p-3 my-4 ">
+                    <div className="popular-img col-4">
                         <img src={gadgets.gadget1} alt="" className="img-fluid " />
                       </div>
                       <div className="popular-text">
@@ -44,24 +26,8 @@ const Popular = () => {
                       </div>
                     </div>
                 </Row>
-                <Row className=" col-12"> 
-                    <div className="col-12 col-lg-6 d-flex">
-                      <div className="popular-img">
-                        <img src={gadgets.gadget1} alt="" className="img-fluid " />
-                      </div>
-                      <div className="popular-text">
-                        Product name
-                      </div>
-                    </div>
-                    <div className="col-12 col-lg-6 d-flex">
-                    <div className="popular-img">
-                        <img src={gadgets.gadget1} alt="" className="img-fluid " />
-                      </div>
-                      <div className="popular-text">
-                        Product name
-                      </div>
-                    </div>
-                </Row>
+             
+
               
         </Container>
     </div>
