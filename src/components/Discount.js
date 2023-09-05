@@ -1,125 +1,31 @@
-import  Container  from "react-bootstrap/Container"
-import Row  from "react-bootstrap/Row"
-import Col  from "react-bootstrap/Col"
-import  gadgets from '../images/index.js'
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-import React from 'react'
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
 
-const Discount = () => {
+// import './styles.css';
+
+// import required modules
+import { Navigation } from 'swiper/modules';
+
+export default function App() {
   return (
-    <Container className="Discount">
-        <p className="discount-header fw-bold fs-2">Get Discounts From These Products</p>
-        {/* <Row className="col-12 justify-content-between"> */}
-        
-      <div className=" " >
-      <swiper-container slides-per-view="3" speed="500" loop="true" css-mode="true" navigation="true" pagination="true" >
-            <swiper-slide>
-            <Col > 
-            <Card className="card-design m-3" >
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-                <Card.Img variant="top" src={gadgets.gadget6} fluid/>
-                </Card>
-        </Col>
-            </swiper-slide>
-
-            <swiper-slide>
-            <Col> <Card className="card-design m-3" >
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-                <Card.Img variant="top" src={gadgets.gadget6} fluid/>
-                </Card>
-        </Col>
-            </swiper-slide>
-
-            <swiper-slide>
-            <Col> <Card className="card-design m-3" >
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-                <Card.Img variant="top" src={gadgets.gadget6} fluid/>
-                </Card>
-        </Col>
-            </swiper-slide>
-            
-            <swiper-slide>
-            <Col> <Card className="card-design m-3" >
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-                <Card.Img variant="top" src={gadgets.gadget6} fluid/>
-                </Card>
-        </Col>
-            </swiper-slide>
-
-            <swiper-slide>
-            <Col> <Card className="card-design m-3" >
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-                <Card.Img variant="top" src={gadgets.gadget6} fluid/>
-                </Card>
-        </Col>
-            </swiper-slide>
-
-            <swiper-slide>
-            <Col> <Card className="card-design m-3" >
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
-                    {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-                <Card.Img variant="top" src={gadgets.gadget6} fluid/>
-                </Card>
-        </Col>
-            </swiper-slide>
-
-            </swiper-container>
-        
-
-       
-      
-        
-        
-      </div>
-      
+    <>
+      <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide>
+      </Swiper>
+    </>
     
-        {/* </Row> */}
-     
-    </Container>
-  )
+  );
 }
-
-export default Discount
