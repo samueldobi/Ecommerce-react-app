@@ -126,5 +126,8 @@ body {
 }
 .discount{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+.discount-img{
+  height: 200px;
 }

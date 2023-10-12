@@ -21,24 +21,22 @@ import 'swiper/swiper.min.css';
 
 const Discount = () => {
   return (
-    <div className='discount'>
+    <div className='discount' >
       <Container>
           <Row className=''>
-       <Card className="card-design m-3" >
-                <Card.Body >
+       
                     {Data.map((item) => (
                       <Col key = {item.id}>
                           <Card.Title>{item.title}</Card.Title>
                         <Card.Text>
                         {item.text}
                         </Card.Text>
+                        <img src = {item.picture} className='discount-img img-fluid'  />
                         </Col>
                   ))}
                    
                     {/* <Button variant="primary">Go somewhere</Button> */}
-                </Card.Body>
-    
-                </Card>
+             
                   </Row>
                 </Container>
   
