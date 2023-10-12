@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { Link } from 'react-router-dom/cjs/react-router-dom';
 
 function OffcanvasExample() {
   return (
@@ -27,10 +28,12 @@ function OffcanvasExample() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">Phones</Nav.Link>
-                  <Nav.Link href="#action2">Accesories</Nav.Link>
-                  <Nav.Link href="#action2">Laptops</Nav.Link>
-                  <Nav.Link href="#action2">Deals</Nav.Link>
+                  <Nav.Link >
+                    <Link to ="/phones" > Phones</Link>
+                    </Nav.Link>
+                  <Nav.Link >Accesories</Nav.Link>
+                  <Nav.Link >Laptops</Nav.Link>
+                  <Nav.Link >Deals</Nav.Link>
                   <NavDropdown
                     title="Dropdown"
                     id={`offcanvasNavbarDropdown-expand`}
