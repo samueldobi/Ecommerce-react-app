@@ -1,11 +1,11 @@
+import React, { useRef, useState } from 'react';
 import  Container  from "react-bootstrap/Container"
 import Row  from "react-bootstrap/Row"
 import Col  from "react-bootstrap/Col"
 import  gadgets from '../images/index.js'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import React, { useRef, useState } from 'react';
-import Data from "./dummydata.json"
+import Data from "./dummydata.json";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -21,42 +21,28 @@ import 'swiper/swiper.min.css';
 
 const Discount = () => {
   return (
-    <>
-    <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        // modules={[Pagination]}
-        className="mySwiper"
-      >
-        <SwiperSlide> 
-        <Col > 
-            <Card className="card-design m-3" >
-                <Card.Body>
-                    <Card.Title>Card Title 1</Card.Title>
-                    <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
-                    </Card.Text>
+    <div className='discount'>
+      <Container>
+          <Row className=''>
+       <Card className="card-design m-3" >
+                <Card.Body >
+                    {Data.map((item) => (
+                      <Col key = {item.id}>
+                          <Card.Title>{item.title}</Card.Title>
+                        <Card.Text>
+                        {item.text}
+                        </Card.Text>
+                        </Col>
+                  ))}
+                   
                     {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
-                <Card.Img variant="top" src={gadgets.gadget6} fluid/>
-                </Card>
-        </Col>
-        </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
-      </Swiper>
-    </>
     
+                </Card>
+                  </Row>
+                </Container>
+  
+    </div>
   );
 }
 export default Discount
