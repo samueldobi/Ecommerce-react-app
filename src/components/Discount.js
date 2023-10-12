@@ -23,7 +23,7 @@ const Discount = () => {
   return (
     <div className='discount' >
       <Container>
-          <Row className=''>
+          <Row className='discount'>
        
                     {Data.map((item) => (
                       <Col key = {item.id}>

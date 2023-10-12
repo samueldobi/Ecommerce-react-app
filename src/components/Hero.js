@@ -6,12 +6,12 @@ import Button from 'react-bootstrap/Button';
 
 const Hero = () => {
   return (
-    <div className=" hero-section mb-5 ">
+    <div className=" hero-section mb-5  ">
        <Container>
        <Row className = "">
         <Col className="col-12 col-md-6 ">
           <div className="  p-3 ">
-          <p className="fs-1 fw-bold hero-header  ">Grab up to 50% off on your first purchase</p>
+          <p className="fs-1 fw-bold hero-header mt-3 ">Grab up to 50% off on your first purchase</p>
           <Button className="hero-btn  ">Buy Now</Button>  
           </div>
         </Col> 

@@ -121,13 +121,18 @@ body {
     width: 768px;
   }
 } */
-.try{
-  background-color: #000;
-}
 .discount{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+.discount *{
+  padding: 5px;
 }
 .discount-img{
   height: 200px;
+}
+@media screen and (max-width: 1080px) {
+  .discount{
+    flex-direction: column;
+  }
 }
