@@ -1,33 +1,40 @@
 import Navbar from "./components/Navbar"; 
-import Phones from "./components/Phones";
 import Home from "./components/Home";
+import Phones from "./components/Phones";
+import Accesories from "./components/Accesories";
+import Laptops from "./components/Laptops";
+import Deals from "./components/Deals";
 import Footer from "./components/Footer";
-
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom/cjs/react-router-dom.min";
+
 
 function App() {
   return (
     <Router>
     <div className="App">
       <Navbar/>
-      <Home/>
-      <Footer/>
+     
+      
       <div className="content">
         <Switch>
+          <Route exact path ="/">
+          <Home/>
+          </Route>
           <Route exact path ="/phones">
             <Phones/>
           </Route>
           <Route exact path ="/accesories">
-            <Phones/>
+            <Accesories/>
           </Route>
           <Route exact path ="/laptops">
-            <Phones/>
+            <Laptops/>
           </Route>
           <Route exact path ="/deals">
-            <Phones/>
+            <Deals/>
           </Route>
         </Switch>
       </div> 
+      <Footer/>
     </div>
        </Router>
   

@@ -11,7 +11,7 @@ const Hero = () => {
        <Row className = "">
         <Col className="col-12 col-md-6 ">
           <div className="  p-3 ">
-          <p className="fs-1 fw-bold hero-header mt-3 ">Grab up to 50% off on your first purchase</p>
+          <p className="fs-1 fw-bold hero-header mt-3 p-3">Grab up to 50% off on your first purchase</p>
           <Button className="hero-btn  ">Buy Now</Button>  
           </div>
         </Col> 

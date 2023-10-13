@@ -26,15 +26,23 @@ function OffcanvasExample() {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
+                <Nav className="justify-content-end flex-grow-1 pe-3 nav-link">
+                <Nav.Link >
+                    <Link to ="/" > Home</Link>
+                    </Nav.Link>
                   <Nav.Link >
                     <Link to ="/phones" > Phones</Link>
                     </Nav.Link>
-                  <Nav.Link >Accesories</Nav.Link>
-                  <Nav.Link >Laptops</Nav.Link>
-                  <Nav.Link >Deals</Nav.Link>
-                  <NavDropdown
+                  <Nav.Link >
+                    <Link to ="/accesories" > Accesories</Link>
+                    </Nav.Link>
+                  <Nav.Link >
+                    <Link to ="/laptops" > Laptops</Link>
+                    </Nav.Link>
+                  <Nav.Link >
+                    <Link to ="/deals" > Deals</Link>
+                    </Nav.Link>
+                  {/* <NavDropdown
                     title="Dropdown"
                     id={`offcanvasNavbarDropdown-expand`}
                   >
@@ -46,7 +54,7 @@ function OffcanvasExample() {
                     <NavDropdown.Item href="#action5">
                       Something else here
                     </NavDropdown.Item>
-                  </NavDropdown>
+                  </NavDropdown> */}
                 </Nav>
                 <Form className="d-flex">
                   <Form.Control

@@ -6,7 +6,7 @@ import  gadgets from '../images/index.js'
 const Popular = () => {
   return (
     <div className="">
-        <Container className="popular">
+        <Container className="popular mt-5">
                 <p className="fs-2 fw-bold">Popular Products</p>
                 <Row className=" col-12 p-3 d-flex justify-content-between"> 
                     <div className="col-12 col-lg-5 d-flex product-box p-3 my-4">

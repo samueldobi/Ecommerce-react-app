@@ -9,11 +9,11 @@ import  gadgets from '../images/index.js'
 // import  img3  from "./images/products/gadget-3.jpg"
 const Products = () => {
   return (
-    <div>
+    <div className="mt-5">
         <h1 className="fw-bold m-3 text-center">Products For You! </h1>
         <Container>
             <Row className="products-box">
-              <Col className="col-12 col-md-4 p-3 g-2 mb-4">
+              <Col className="col-12 col-md-4 p-3 g-2  mb-4">
                     <Card style={{ width: 'rem' }}>
                       <Card.Img variant="top" src={gadgets.gadget1} className ="w-10"  alt = "" />  
                       <Card.Body>
