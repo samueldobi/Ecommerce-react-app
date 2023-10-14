@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 const Hero = () => {
   return (
-    <div className=" hero-section mb-5  ">
+    <div className=" hero-section mb-5  "  >
        <Container>
        <Row className = "">
         <Col className="col-12 col-md-6 ">

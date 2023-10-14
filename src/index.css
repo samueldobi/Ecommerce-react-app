@@ -35,7 +35,8 @@ code {
   object-fit: cover;
 } 
 .hero-header{
-  color: var(--blue);
+  /* color: var(--blue); */
+  text-decoration: none;
 }
 .hero-btn{
   background-color: var(--blue);

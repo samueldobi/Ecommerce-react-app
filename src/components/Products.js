@@ -1,15 +1,14 @@
-import  Container  from "react-bootstrap/Container"
-import Row  from "react-bootstrap/Row"
-import Col  from "react-bootstrap/Col" 
+import  Container  from "react-bootstrap/Container";
+import Row  from "react-bootstrap/Row";
+import Col  from "react-bootstrap/Col" ;
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import  gadgets from '../images/index.js'
-// import  img  from "./images/products/gadget-1.jpg"
-// import  img2  from "./images/products/gadget-2.jpg"
-// import  img3  from "./images/products/gadget-3.jpg"
+
+
 const Products = () => {
   return (
-    <div className="mt-5">
+    <div className="mt-5  " >
         <h1 className="fw-bold m-3 text-center">Products For You! </h1>
         <Container>
             <Row className="products-box">

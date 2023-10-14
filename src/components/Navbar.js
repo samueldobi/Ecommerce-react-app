@@ -13,7 +13,13 @@ function OffcanvasExample() {
       
         <Navbar bg="light" expand="xs" className="">
           <Container fluid>
-            <Navbar.Brand href="#" className='fw-bold hero-header'>GadgetBoom</Navbar.Brand>
+            <Navbar.Brand href="#" className='fw-bold hero-header'>
+            <Nav.Link >
+                    <Link to ="/" >  
+                     GadgetBoom
+                     </Link>
+                    </Nav.Link>
+              </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand`}

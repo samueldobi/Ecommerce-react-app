@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import  Container  from "react-bootstrap/Container";
+import Row  from "react-bootstrap/Row";
+import Col  from "react-bootstrap/Col" ;
 
 const Phones = () => {
   return (
-    <div>
-        <h1>hello How are you doing ???</h1>
+    <div className='mt-5'>
+        <h1 className='text-center'>Check out our Phones</h1>
     </div>
   )
 }
