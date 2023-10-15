@@ -9,7 +9,7 @@ import  gadgets from '../images/index.js'
 const Products = () => {
   return (
     <div className="mt-5  " >
-        <h1 className="fw-bold m-3 text-center">Products For You! </h1>
+        <h1 className="fw-bold m-3 text-center hero-header">Products For You! </h1>
         <Container>
             <Row className="products-box">
               <Col className="col-12 col-md-4 p-3 g-2  mb-4">

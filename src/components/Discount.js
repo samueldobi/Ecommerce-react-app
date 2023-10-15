@@ -22,11 +22,11 @@ import 'swiper/swiper.min.css';
 const Discount = () => {
   return (
     <div className='discount' >
-      <Container>
+      <Container className=''>
           <Row className='discount'>
        
                     {Data.map((item) => (
-                      <Col key = {item.id}>
+                      <Col key = {item.id} className='discount-box p-3'>
                           <Card.Title>{item.title}</Card.Title>
                         <Card.Text>
                         {item.text}

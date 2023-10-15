@@ -2,11 +2,13 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #eee;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 /* *{
   border:1px solid red;
@@ -35,7 +37,7 @@ code {
   object-fit: cover;
 } 
 .hero-header{
-  /* color: var(--blue); */
+  color: var(--blue);
   text-decoration: none;
 }
 .hero-btn{
@@ -64,22 +66,21 @@ code {
 .product-box{
   background-color: #EEEDED;
 }
+/* .product-details{
+  color: ;
+} */
+/* .discount-box {
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+} */
 #app {
-  height: 100%;
+  height: 100%; 
 }
 html,
 body {
   position: relative;
   height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
 }
 .discount{
   display: flex;
@@ -96,20 +97,13 @@ body {
     flex-direction: column;
   }
 }
-.footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-}
-
 footer p {
   margin: 0;
 }
 /* Footer.css */
 
 .footer {
-  background-color: #333;
+  background-color: #000;
   color: #fff;
   padding: 20px 0;
 }
