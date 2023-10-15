@@ -13,7 +13,7 @@ const Popular = () => {
                       <div className="popular-img col-4">
                         <img src={gadgets.gadget1} alt="" className="img-fluid " />
                       </div>
-                      <div className="popular-text ">
+                      <div className="popular-text p-3 ">
                        <p className="fs-4 fw-bold">Product </p>
                        <p className="fs-6 product-details">Product Details </p>
                       </div>
@@ -22,7 +22,7 @@ const Popular = () => {
                     <div className="popular-img col-4">
                         <img src={gadgets.gadget2} alt="" className="img-fluid " />
                       </div>
-                      <div className="popular-text ">
+                      <div className="popular-text  p-3 ">
                        <p className="fs-4 fw-bold">Product </p>
                        <p className="fs-6 product-details">Product Details </p>
                       </div>
@@ -33,7 +33,7 @@ const Popular = () => {
                       <div className="popular-img col-4">
                         <img src={gadgets.gadget1} alt="" className="img-fluid " />
                       </div>
-                      <div className="popular-text ">
+                      <div className="popular-text  p-3 ">
                        <p className="fs-4 fw-bold">Product </p>
                        <p className="fs-6 product-details">Product Details </p>
                       </div>
@@ -42,7 +42,7 @@ const Popular = () => {
                     <div className="popular-img col-4">
                         <img src={gadgets.gadget2} alt="" className="img-fluid " />
                       </div>
-                      <div className="popular-text ">
+                      <div className="popular-text  p-3 ">
                        <p className="fs-4 fw-bold">Product </p>
                        <p className="fs-6 product-details">Product Details </p>
                       </div>
@@ -53,7 +53,7 @@ const Popular = () => {
                       <div className="popular-img col-4">
                         <img src={gadgets.gadget1} alt="" className="img-fluid " />
                       </div>
-                      <div className="popular-text ">
+                      <div className="popular-text  p-3 ">
                        <p className="fs-4 fw-bold">Product </p>
                        <p className="fs-6 product-details">Product Details </p>
                       </div>
@@ -62,7 +62,7 @@ const Popular = () => {
                     <div className="popular-img col-4">
                         <img src={gadgets.gadget2} alt="" className="img-fluid " />
                       </div>
-                      <div className="popular-text ">
+                      <div className="popular-text  p-3 ">
                        <p className="fs-4 fw-bold">Product </p>
                        <p className="fs-6 product-details">Product Details </p>
                       </div>
