@@ -4,6 +4,7 @@ import Col  from "react-bootstrap/Col" ;
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import  gadgets from '../images/index.js'
+import Btn from "./utilities/Btn.js";
 
 
 const Products = () => {
@@ -21,7 +22,8 @@ const Products = () => {
                           Some quick example text to build on the card title and make up the
                           bulk of the card's content.
                         </Card.Text>
-                        <Button variant="" className="buy-btn text-light">Go somewhere</Button>
+                        <Btn className="buy-btn text-light "/>
+                        
                       </Card.Body>
                   </Card>
                 </Col>
