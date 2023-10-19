@@ -1,0 +1,39 @@
+[
+    {
+      "index": 0,
+      "picture": "images/Products/gadget1.jpg",
+      "title":  "Black Airpods",
+      "text": ""
+      
+    },
+    {
+        "index": 1,
+        "picture": "gadget1",
+        "title":  "White Airpods",
+        "text": ""
+    },
+    {
+        "index": 2,
+        "picture": "images/Products/gadget1.jpg",
+        "title":  "Blue Airpods",
+        "text": ""
+    },
+    {
+        "index": 3,
+        "picture": "images/Products/gadget1.jpg",
+        "title":  "Red Airpods",
+        "text": ""
+    },
+    {
+        "index": 4,
+        "picture": "images/Products/gadget1.jpg",
+        "title":  "Green Airpods",
+        "text": ""
+    },
+    {
+        "index": 5,
+        "picture": "images/Products/gadget1.jpg",
+        "title":  "Yellow Airpods",
+        "text": ""
+    }
+  ]

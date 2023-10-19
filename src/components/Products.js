@@ -1,10 +1,10 @@
 import  Container  from "react-bootstrap/Container";
 import Row  from "react-bootstrap/Row";
 import Col  from "react-bootstrap/Col" ;
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import  gadgets from '../images/index.js'
 import Btn from "./utilities/Btn.js";
+import Data from "../Images.json";
 
 
 const Products = () => {
@@ -13,6 +13,14 @@ const Products = () => {
         <h1 className="fw-bold m-3 text-center hero-header">Products For You! </h1>
         <Container>
             <Row className="products-box">
+              {Data.map((item) =>(
+                <Col key = {item.id} className="col-12 col-md-4 p-3 g-2">
+                   <Card.Title>{item.title}</Card.Title>
+                </Col>
+              ))}
+
+
+
               <Col className="col-12 col-md-4 p-3 g-2  mb-4">
                     <Card style={{ width: 'rem' }}>
                       <Card.Img variant="top" src={gadgets.gadget1} className ="w-10"  alt = "" />  
@@ -22,8 +30,7 @@ const Products = () => {
                           Some quick example text to build on the card title and make up the
                           bulk of the card's content.
                         </Card.Text>
-                        <Btn className="buy-btn text-light "/>
-                        
+                        <Btn />
                       </Card.Body>
                   </Card>
                 </Col>
@@ -37,7 +44,7 @@ const Products = () => {
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                       </Card.Text>
-                      <Button variant="" className="buy-btn text-light">Go somewhere</Button>
+                      <Btn />
                     </Card.Body>
                  </Card>
                 </Col>
@@ -51,7 +58,7 @@ const Products = () => {
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                       </Card.Text>
-                      <Button variant="" className="buy-btn text-light">Go somewhere</Button>
+                      <Btn />
                     </Card.Body>
                  </Card>
 
@@ -66,7 +73,7 @@ const Products = () => {
                           Some quick example text to build on the card title and make up the
                           bulk of the card's content.
                         </Card.Text>
-                        <Button variant="" className="buy-btn text-light">Go somewhere</Button>
+                        <Btn />
                       </Card.Body>
                    </Card>
                 </Col> 
@@ -80,7 +87,7 @@ const Products = () => {
                           Some quick example text to build on the card title and make up the
                           bulk of the card's content.
                         </Card.Text>
-                        <Button variant="" className="buy-btn text-light">Go somewhere</Button>
+                        <Btn />
                       </Card.Body>
                    </Card>
                 </Col> 
@@ -94,7 +101,7 @@ const Products = () => {
                           Some quick example text to build on the card title and make up the
                           bulk of the card's content.
                         </Card.Text>
-                        <Button variant="" className="buy-btn text-light">Go somewhere</Button>
+                        <Btn />
                       </Card.Body>
                    </Card>
                 </Col> 
