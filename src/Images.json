@@ -1,15 +1,15 @@
 [
     {
       "index": 0,
-      "picture": "images/Products/gadget-1.jpg",
-      "title":  "Black Airpods",
+      "picture": "images/Products/gadget-7.jpg",
+      "title":  "White Tablet",
       "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
       
     },
     {
         "index": 1,
-        "picture": "images/Products/gadget-2.jpg",
-        "title":  "Apple Mouse",
+        "picture": "images/Products/gadget-8.jpg",
+        "title":  "Gadget Accesories",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
     },
     {

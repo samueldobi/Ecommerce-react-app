@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -58,22 +58,25 @@ code {
   background-color: var(--blue);
   ;
 }
+.popular-row{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+@media screen and (max-width: 768px) {
+  .popular-row{
+    display: block;
+  }
+}
 .popular-img img{
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   padding: 5px;
 }
 .product-box{
   background-color: #EEEDED;
 }
-/* .product-details{
-  color: ;
-} */
-/* .discount-box {
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-} */
 #app {
   height: 100%; 
 }

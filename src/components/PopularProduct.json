@@ -1,0 +1,38 @@
+[
+    {
+      "index": 0,
+      "picture": "images/Popular/gadget-1.jpg",
+      "title":  "White Tablet",
+      "text": "lorem ipsum"
+    },
+    {
+        "index": 1,
+        "picture": "images/Popular/gadget-2.jpg",
+        "title":  "White Tablet",
+        "text": "lorem ipsum"
+    },
+    {
+        "index": 2,
+        "picture": "images/Popular/gadget-3.webp",
+        "title":  "White Tablet",
+        "text": "lorem ipsum"
+    },
+    {
+        "index": 3,
+        "picture": "images/Popular/gadget-1.jpg",
+        "title":  "White Tablet",
+        "text": "lorem ipsum"
+    },
+    {
+        "index": 4,
+        "picture": "images/Popular/gadget-2.jpg",
+        "title":  "White Tablet",
+        "text": "lorem ipsum"
+    },
+    {
+        "index": 5,
+        "picture": "images/Popular/gadget-3.webp",
+        "title":  "White Tablet",
+        "text": "lorem ipsum"
+    }
+  ]

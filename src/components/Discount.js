@@ -27,7 +27,9 @@ const Discount = () => {
        
                     {Data.map((item) => (
                       <Col key = {item.id} className='discount-box p-3'>
-                          <Card.Title>{item.title}</Card.Title>
+                          <Card.Title className='fw-bold fs-4'>
+                            {item.title}
+                            </Card.Title>
                         <Card.Text>
                         {item.text}
                         </Card.Text>
