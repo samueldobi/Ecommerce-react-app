@@ -1,39 +1,39 @@
 [
     {
       "index": 0,
-      "picture": "images/Products/gadget1.jpg",
+      "picture": "images/Products/gadget-1.jpg",
       "title":  "Black Airpods",
-      "text": ""
+      "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
       
     },
     {
         "index": 1,
-        "picture": "gadget1",
-        "title":  "White Airpods",
-        "text": ""
+        "picture": "images/Products/gadget-2.jpg",
+        "title":  "Apple Mouse",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
     },
     {
         "index": 2,
-        "picture": "images/Products/gadget1.jpg",
-        "title":  "Blue Airpods",
-        "text": ""
+        "picture": "images/Products/gadget-3.jpg",
+        "title":  "Apple  Smart Watch",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
     },
     {
         "index": 3,
-        "picture": "images/Products/gadget1.jpg",
-        "title":  "Red Airpods",
-        "text": ""
+        "picture": "images/Products/gadget-4.jpg",
+        "title":  "Selfie Stand",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
     },
     {
         "index": 4,
-        "picture": "images/Products/gadget1.jpg",
-        "title":  "Green Airpods",
-        "text": ""
+        "picture": "images/Products/gadget-5.jpg",
+        "title":  "Iphone Casing",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
     },
     {
         "index": 5,
-        "picture": "images/Products/gadget1.jpg",
-        "title":  "Yellow Airpods",
-        "text": ""
+        "picture": "images/Products/gadget-6.jpg",
+        "title":  "Sleek Laptop",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
     }
   ]
