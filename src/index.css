@@ -10,6 +10,9 @@ body {
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* *{
   border:1px solid red;
 } */
@@ -114,7 +117,7 @@ footer p {
 .footer h5 {
   color: #fff;
 }
-
+@media screen and (max-width: 1080px) {}
 .list-unstyled {
   padding: 0;
   list-style: none;

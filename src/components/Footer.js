@@ -5,7 +5,7 @@ const Footer = () => {
     <div className='footer p-3 mt-5'>
           <div className="container p-3">
         <div className="row">
-          <div className="col-md-3">
+          <div className=" col-md-3 ">
             <h4 className='fw-bold'> Products</h4>
             <ul className="list-unstyled">
               <li><a href="#">Phones </a></li>
