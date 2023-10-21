@@ -30,7 +30,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="col-md-3">
-            <h4 className='fw-bold'>Column 4</h4>
+            <h4 className='fw-bold'>Links</h4>
             <ul className="list-unstyled">
               <li><a href="#">Home</a></li>
               <li><a href="#">Deals</a></li>
