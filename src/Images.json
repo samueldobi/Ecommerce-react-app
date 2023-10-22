@@ -35,5 +35,39 @@
         "picture": "images/Products/gadget-6.jpg",
         "title":  "Sleek Laptop",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+    },
+    {
+    "Phones" :{
+        "Phone0":{
+            "index":0,
+            "picture": "images/Phones/Phone-1.webp",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+        },
+        "Phone1":{
+            "index":1,
+            "picture": "images/Phones/Phone-1.webp",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+        },
+        "Phone2":{
+            "index":2,
+            "picture": "images/Phones/Phone-1.webp",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+        },
+        "Phone3":{
+            "index":3,
+            "picture": "images/Phones/Phone-1.webp",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+        },
+        "Phone4":{
+            "index":4,
+            "picture": "images/Phones/Phone-1.webp",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+        },
+        "Phone5":{
+            "index":5,
+            "picture": "images/Phones/Phone-1.webp",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+        }
+    }
     }
   ]

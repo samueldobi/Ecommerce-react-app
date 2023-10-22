@@ -5,6 +5,7 @@ import Col  from "react-bootstrap/Col" ;
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import  gadgets from '../images/index.js';
+import Data from '../Images.json';
 
 const Phones = () => {
   return (
@@ -12,11 +13,13 @@ const Phones = () => {
         <h1 className='text-center'>Check out our Phones</h1>
         <Container>
             <Row className="products-box">
-              <Col className="col-12 col-md-4 p-3 g-2  mb-4">
+            {Data.map((item)=>(
+              <Col key = {item.Phones.id} className="col-12 col-md-4 p-3 g-2  mb-4">
+             
                     <Card style={{ width: 'rem' }}>
                       <Card.Img variant="top" src={gadgets.gadget1} className ="w-10"  alt = "" />  
                       <Card.Body>
-                        <Card.Title>Card Title gg</Card.Title>
+                        <Card.Title>{item.Phones.Phone0.text}</Card.Title>
                         <Card.Text>
                           Some quick example text to build on the card title and make up the
                           bulk of the card's content.
@@ -25,6 +28,7 @@ const Phones = () => {
                       </Card.Body>
                   </Card>
                 </Col>
+                ))}
 
                 <Col className="col-12 col-md-4 p-3 g-2">
                  <Card style={{ width: 'rem' }}>
