@@ -1,0 +1,32 @@
+[
+    {
+            "index":0,
+            "picture": "images/Phones/Phone-1.webp",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+        },
+        {
+            "index":1,
+            "picture": "images/Phones/Phone-2.webp",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+        },
+        {
+            "index":2,
+            "picture": "images/Phones/Phone-3.webp",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+        },
+        {
+            "index":3,
+            "picture": "images/Phones/Phone-4.webp",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+        },
+        {
+            "index":4,
+            "picture": "images/Phones/Phone-5.webp",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+        },
+        {
+            "index":5,
+            "picture": "images/Phones/Phone-6.webp",
+            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+        }
+  ]

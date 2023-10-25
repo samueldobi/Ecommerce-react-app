@@ -130,3 +130,7 @@ footer p {
 .nav-link *{
   text-decoration: none;
 }
+.phone-img{
+  width: 200px;
+  height: 100px;
+}

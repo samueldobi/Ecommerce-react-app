@@ -5,7 +5,7 @@ import Col  from "react-bootstrap/Col" ;
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import  gadgets from '../images/index.js';
-import Data from '../Images.json';
+import Data from '../Phones.json';
 
 const Phones = () => {
   return (
@@ -14,12 +14,12 @@ const Phones = () => {
         <Container>
             <Row className="products-box">
             {Data.map((item)=>(
-              <Col key = {item.Phones.id} className="col-12 col-md-4 p-3 g-2  mb-4">
+              <Col key = {item.id} className="col-12 col-md-4 p-3 g-2  mb-4">
              
                     <Card style={{ width: 'rem' }}>
-                      <Card.Img variant="top" src={gadgets.gadget1} className ="w-10"  alt = "" />  
+                      <Card.Img variant="top" src={item.picture} className ="img-fluid phone-img"  alt = "" />  
                       <Card.Body>
-                        <Card.Title>{item.Phones.Phone0.text}</Card.Title>
+                        <Card.Title>{item.text}</Card.Title>
                         <Card.Text>
                           Some quick example text to build on the card title and make up the
                           bulk of the card's content.
@@ -30,78 +30,8 @@ const Phones = () => {
                 </Col>
                 ))}
 
-                <Col className="col-12 col-md-4 p-3 g-2">
-                 <Card style={{ width: 'rem' }}>
-                    <Card.Img variant="top" src={gadgets.gadget2} className ="w-10"  alt = ""  />
-                    <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                      </Card.Text>
-                      <Button variant="" className="buy-btn text-light">Go somewhere</Button>
-                    </Card.Body>
-                 </Card>
-                </Col>
+              
 
-                <Col className="col-12 col-md-4 p-3 g-2">
-                  <Card style={{ width: 'rem' }}>
-                    <Card.Img variant="top"  src={gadgets.gadget3} className ="w-10"  alt = ""   />
-                    <Card.Body>
-                      <Card.Title>Card Title</Card.Title>
-                      <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                      </Card.Text>
-                      <Button variant="" className="buy-btn text-light">Go somewhere</Button>
-                    </Card.Body>
-                 </Card>
-
-                </Col>
-
-                <Col className="col-12 col-md-4 p-3 g-2">
-                  <Card style={{ width: 'rem' }}>
-                      <Card.Img variant="top"  src={gadgets.gadget4} className ="w-10"  alt = ""   />
-                      <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and make up the
-                          bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="" className="buy-btn text-light">Go somewhere</Button>
-                      </Card.Body>
-                   </Card>
-                </Col> 
-
-                <Col className="col-12 col-md-4 p-3 g-2">
-                  <Card style={{ width: 'rem' }}>
-                      <Card.Img variant="top"  src={gadgets.gadget8} className ="w-10"  alt = ""   />
-                      <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and make up the
-                          bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="" className="buy-btn text-light">Go somewhere</Button>
-                      </Card.Body>
-                   </Card>
-                </Col> 
-
-                <Col className="col-12 col-md-4 p-3 g-2">
-                  <Card style={{ width: 'rem' }}>
-                      <Card.Img variant="top"  src={gadgets.gadget11} className ="w-10"  alt = ""   />
-                      <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
-                        <Card.Text>
-                          Some quick example text to build on the card title and make up the
-                          bulk of the card's content.
-                        </Card.Text>
-                        <Button variant="" className="buy-btn text-light">Go somewhere</Button>
-                      </Card.Body>
-                   </Card>
-                </Col> 
-
-               
                
             </Row>
         </Container>
