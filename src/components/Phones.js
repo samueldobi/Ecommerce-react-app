@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import  gadgets from '../images/index.js';
 import Data from '../Phones.json';
+import Btn from './utilities/Btn.js';
+import Counter from './utilities/Counter.js';
 
 const Phones = () => {
   return (
@@ -24,7 +26,8 @@ const Phones = () => {
                           Some quick example text to build on the card title and make up the
                           bulk of the card's content.
                         </Card.Text>
-                        <Button variant="" className="buy-btn text-light">Go somewhere</Button>
+                        <Counter/>
+                        <Btn/>
                       </Card.Body>
                   </Card>
                 </Col>
