@@ -2,31 +2,37 @@
     {
             "index":0,
             "picture": "images/Phones/Phone-1.webp",
-            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+            "title": "Iphone XR 64GB",
+            "text":"The iPhone XR is a smartphone by Apple, known for its affordable price point while offering a powerful A12 Bionic chip, a high-quality Liquid Retina display, and a single-lens camera system. "
         },
         {
             "index":1,
             "picture": "images/Phones/Phone-2.webp",
-            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+            "title": "Iphone 8 32GB",
+            "text":"The iPhone 8 is a previous-generation smartphone by Apple, featuring a compact design, A11 Bionic chip, and a capable single-lens camera system, often appreciated for its reliability and performance."
         },
         {
             "index":2,
             "picture": "images/Phones/Phone-3.webp",
-            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+            "title": "IPHONE 8 32GB",
+            "text":"The iPhone X is a milestone in Apple's smartphone history, renowned for its bezel-less design, OLED Super Retina display, and Face ID facial recognition technology."
         },
         {
             "index":3,
             "picture": "images/Phones/Phone-4.webp",
-            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+            "title": "IPHONE 11 364GB",
+            "text":"The iPhone 11 is a popular mid-range smartphone by Apple, boasting a dual-camera system, A13 Bionic chip, and a Liquid Retina display. It's known for its excellent camera performance, fast processing, and competitive price."
         },
         {
             "index":4,
             "picture": "images/Phones/Phone-5.webp",
-            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+            "title": "IPHONE 12 128GB",
+            "text":"The iPhone 12 is a premium smartphone with a sleek design, featuring Apple's first 5G capabilities, the powerful A14 Bionic chip, and an OLED Super Retina XDR display. Its MagSafe feature allows for easy attachment of accessories."
         },
         {
             "index":5,
             "picture": "images/Phones/Phone-6.webp",
-            "text":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, voluptatibus."
+            "title": "IPHONE 13 128GB",
+            "text":"The iPhone 13 is Apple's latest flagship, offering incremental improvements like the A15 Bionic chip, improved camera system, and longer battery life. It features Cinematic mode for video recording and ProRAW capabilities, making it a great choice for photography enthusiasts."
         }
   ]

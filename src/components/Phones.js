@@ -16,15 +16,14 @@ const Phones = () => {
         <Container>
             <Row className="products-box">
             {Data.map((item)=>(
-              <Col key = {item.id} className="col-12 col-md-4 p-3 g-2  mb-4">
+              <Col key = {item.id} className="col-12 col-md-4 p-3 g-2  mb-4 ">
              
                     <Card style={{ width: 'rem' }}>
                       <Card.Img variant="top" src={item.picture} className ="img-fluid phone-img"  alt = "" />  
                       <Card.Body>
-                        <Card.Title>{item.text}</Card.Title>
+                        <Card.Title>{item.title}</Card.Title>
                         <Card.Text>
-                          Some quick example text to build on the card title and make up the
-                          bulk of the card's content.
+                          {item.text}
                         </Card.Text>
                         <Counter/>
                         <Btn/>
