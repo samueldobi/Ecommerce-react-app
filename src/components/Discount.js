@@ -5,7 +5,7 @@ import Col  from "react-bootstrap/Col"
 import  gadgets from '../images/index.js'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Data from "./dummydata.json";
+import Data from "./Discountdata.json";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
