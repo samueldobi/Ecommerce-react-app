@@ -2,25 +2,27 @@
   {
     "index": 0,
     "title":  "Free for all",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "text": "Enjoy free delivery to your doorstep. Shop hassle-free, and we'll handle the rest. Your convenience, our priority!",
     "picture": "https://images.pexels.com/photos/682933/pexels-photo-682933.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
     "index": 1,
     "title":"Cashback Guaranteed",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "text": 
+    "Guaranteed cashback if an issue arises. Your peace of mind, our promise.",
     "picture": "https://images.pexels.com/photos/7855651/pexels-photo-7855651.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
   },
   {
     "index": 2,
     "title":"Summer Discount",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "text": 
+    "Seasonal discounts for you. Don't miss out on savings!",
     "picture":  "https://images.pexels.com/photos/2106216/pexels-photo-2106216.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
   },
   {
     "index": 3,
-    "title": "August Sales",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?",
+    "title": "Products  Swap",
+    "text": "Swap your used product for brand new. Upgrade hassle-free!",
     "picture": "https://images.pexels.com/photos/2106216/pexels-photo-2106216.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
   }
 ]
