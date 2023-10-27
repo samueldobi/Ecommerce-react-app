@@ -12,7 +12,7 @@ import Counter from './utilities/Counter.js';
 const Phones = () => {
   return (
     <div className='mt-5'>
-        <h1 className='text-center'>Check out our Phones</h1>
+        <h1 className='text-center m-3'>Check out our Phones</h1>
         <Container>
             <Row className="products-box">
             {Data.map((item)=>(

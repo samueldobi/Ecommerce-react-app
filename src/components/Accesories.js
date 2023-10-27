@@ -12,7 +12,7 @@ import Btn from './utilities/Btn.js';
 const Accesories = () => {
   return (
     <div>
-      <h1 className='text-center fw-bold '>Accesories</h1>
+      <h1 className='text-center fw-bold m-3 '>Accesories</h1>
       <Container>
             <Row className="products-box">
               {Data.map((item)=>(
