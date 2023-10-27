@@ -1,0 +1,38 @@
+[
+    {
+            "index":0,
+            "picture": "images/Accesories/gadget-1.jpg",
+            "title": "AERO AIRPODS 2",
+            "text":"The iPhone XR is a smartphone by Apple, known for its affordable price point while offering a powerful A12 Bionic chip, a high-quality Liquid Retina display, and a single-lens camera system. "
+        },
+        {
+            "index":1,
+            "picture": "images/Accesories/gadget-2.jpg",
+            "title": "APPLE LIGHT MOUSE",
+            "text":"The iPhone 8 is a previous-generation smartphone by Apple, featuring a compact design, A11 Bionic chip, and a capable single-lens camera system, often appreciated for its reliability and performance."
+        },
+        {
+            "index":2,
+            "picture": "images/Accesories/gadget-3.jpg",
+            "title": "APPLE SMART WATCH",
+            "text":"The iPhone X is a milestone in Apple's smartphone history, renowned for its bezel-less design, OLED Super Retina display, and Face ID facial recognition technology."
+        },
+        {
+            "index":3,
+            "picture": "images/Accesories/gadget-4.jpg",
+            "title": "LENON CAMERA STICK",
+            "text":"The iPhone 11 is a popular mid-range smartphone by Apple, boasting a dual-camera system, A13 Bionic chip, and a Liquid Retina display. It's known for its excellent camera performance, fast processing, and competitive price."
+        },
+        {
+            "index":4,
+            "picture": "images/Accesories/gadget-5.jpg",
+            "title": "IPHONE 12 PHONE CASING",
+            "text":"The iPhone 12 is a premium smartphone with a sleek design, featuring Apple's first 5G capabilities, the powerful A14 Bionic chip, and an OLED Super Retina XDR display. Its MagSafe feature allows for easy attachment of accessories."
+        },
+        {
+            "index":5,
+            "picture":"images/Accesories/gadget-8.jpg",
+            "title": "LAPTOP PAD",
+            "text":"The iPhone 13 is Apple's latest flagship, offering incremental improvements like the A15 Bionic chip, improved camera system, and longer battery life. It features Cinematic mode for video recording and ProRAW capabilities, making it a great choice for photography enthusiasts."
+        }
+  ]
