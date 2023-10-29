@@ -3,7 +3,6 @@ import Home from "./components/Home";
 import Phones from "./components/Phones";
 import Accesories from "./components/Accesories";
 import Laptops from "./components/Laptops";
-import Deals from "./components/Deals";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -28,9 +27,6 @@ function App() {
           </Route>
           <Route exact path ="/laptops">
             <Laptops/>
-          </Route>
-          <Route exact path ="/deals">
-            <Deals/>
           </Route>
         </Switch>
       </div> 

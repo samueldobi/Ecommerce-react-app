@@ -45,9 +45,6 @@ function OffcanvasExample() {
                   <Nav.Link >
                     <Link to ="/laptops" > Laptops</Link>
                     </Nav.Link>
-                  <Nav.Link >
-                    <Link to ="/deals" > Deals</Link>
-                    </Nav.Link>
                   {/* <NavDropdown
                     title="Dropdown"
                     id={`offcanvasNavbarDropdown-expand`}
