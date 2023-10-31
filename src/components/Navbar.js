@@ -1,80 +1,62 @@
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Offcanvas from 'react-bootstrap/Offcanvas';
-import { Link } from 'react-router-dom/cjs/react-router-dom';
+import React, { useState, useRef, useEffect } from 'react';
+import { Navbar, Container, Nav, Form, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-function OffcanvasExample() {
+function MyNavbar() {
+  const [isNavbarOpen, setNavbarOpen] = useState(false);
+  // Declare navbarRef and initialize it with null
+  const navbarRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+        setNavbarOpen(false);
+      }
+    }
+
+    document.addEventListener('click', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div>
-      
-        <Navbar bg="light" expand="xs" className="">
-          <Container fluid>
-            <Navbar.Brand href="#" className='fw-bold hero-header'>
-            <Nav.Link >
-                    <Link to ="/" >  
-                     GadgetBoom
-                     </Link>
-                    </Nav.Link>
-              </Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand`} />
-            <Navbar.Offcanvas
-              id={`offcanvasNavbar-expand`}
-              aria-labelledby={`offcanvasNavbarLabel-expand`}
-              placement="end"
-            >
-              <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand`}>
-                  Menu
-                </Offcanvas.Title>
-              </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3 nav-link">
-                <Nav.Link >
-                    <Link to ="/" > Home</Link>
-                    </Nav.Link>
-                  <Nav.Link >
-                    <Link to ="/phones" > Phones</Link>
-                    </Nav.Link>
-                  <Nav.Link >
-                    <Link to ="/accesories" > Accesories</Link>
-                    </Nav.Link>
-                  <Nav.Link >
-                    <Link to ="/laptops" > Laptops</Link>
-                    </Nav.Link>
-                  {/* <NavDropdown
-                    title="Dropdown"
-                    id={`offcanvasNavbarDropdown-expand`}
-                  >
-                    <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
-                      Another action
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
-                      Something else here
-                    </NavDropdown.Item>
-                  </NavDropdown> */}
-                </Nav>
-                <Form className="d-flex">
-                  <Form.Control
-                    type="search"
-                    placeholder="Search"
-                    className="me-2"
-                    aria-label="Search"
-                  />
-                  <Button variant="outline-success">Search</Button>
-                </Form>
-              </Offcanvas.Body>
-            </Navbar.Offcanvas>
-          </Container>
-        </Navbar>
-    
+    <div ref={navbarRef}>
+      <Navbar bg="light" expand="xs" className="">
+        <Container fluid>
+          <Navbar.Brand href="#" className="fw-bold hero-header">
+            <Nav.Link as={Link} to="/">
+              GadgetBoom
+            </Nav.Link>
+          </Navbar.Brand>
+          <Navbar.Toggle onClick={() => setNavbarOpen(!isNavbarOpen)} />
+          <Navbar.Collapse in={isNavbarOpen}>
+            <Nav className="justify-content-end flex-grow-1 pe-3 nav-link">
+              <Nav.Link as={Link} to="/phones">
+                Phones
+              </Nav.Link>
+              <Nav.Link as={Link} to="/accesories">
+                Accessories
+              </Nav.Link>
+              <Nav.Link as={Link} to="/laptops">
+                Laptops
+              </Nav.Link>
+            </Nav>
+            <Form className="d-flex">
+              <Form.Control
+                type="search"
+                placeholder="Search"
+                className="me-2"
+                aria-label="Search"
+              />
+              <Button variant="outline-success">Search</Button>
+            </Form>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </div>
   );
 }
 
-export default OffcanvasExample;
+export default MyNavbar;
