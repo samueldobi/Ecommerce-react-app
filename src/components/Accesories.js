@@ -2,9 +2,7 @@ import React from 'react';
 import  Container  from "react-bootstrap/Container";
 import Row  from "react-bootstrap/Row";
 import Col  from "react-bootstrap/Col" ;
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import  gadgets from '../images/index.js';
+import Card from 'react-bootstrap/Card'
 import Data from "../Accesories.json";
 import Counter from './utilities/Counter.js';
 import Btn from './utilities/Btn.js';
@@ -31,9 +29,6 @@ const Accesories = () => {
             </Col>
               ))}
               
-            
-
-               
                
             </Row>
         </Container>
