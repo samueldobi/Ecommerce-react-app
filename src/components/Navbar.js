@@ -33,13 +33,13 @@ function MyNavbar() {
           <Navbar.Toggle onClick={() => setNavbarOpen(!isNavbarOpen)} />
           <Navbar.Collapse in={isNavbarOpen}>
             <Nav className="justify-content-end flex-grow-1 pe-3 nav-link">
-              <Nav.Link as={Link} to="/phones">
+              <Nav.Link as={Link} to="/phones" className='fw-bold fs-6'>
                 Phones
               </Nav.Link>
-              <Nav.Link as={Link} to="/accesories">
+              <Nav.Link as={Link} to="/accesories " className='fw-bold fs-6'>
                 Accessories
               </Nav.Link>
-              <Nav.Link as={Link} to="/laptops">
+              <Nav.Link as={Link} to="/laptops" className='fw-bold fs-6'>
                 Laptops
               </Nav.Link>
             </Nav>

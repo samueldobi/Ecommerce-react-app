@@ -47,6 +47,9 @@ code {
   background-color: var(--blue);
   border-radius: 20px;
 }
+.hero-btn:hover{
+  transform: scale(1.07);
+}
 .link-btn{
   background-color: #BFACE2;
   border-radius: 20px;
