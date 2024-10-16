@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"; 
 import Home from "./components/Home";
+import Allproducts from "./components/Allproducts";
 import Phones from "./components/Phones";
 import Accesories from "./components/Accesories";
 import Laptops from "./components/Laptops";
@@ -21,9 +22,12 @@ function App() {
       <Navbar/>
      
       
-      <div className="content">
+      <div className="Pages">
         <Switch>
           <Route exact path ="/">
+          <Home/>
+          </Route>
+          <Route exact path ="/allproducts">
           <Home/>
           </Route>
           <Route exact path ="/phones">
