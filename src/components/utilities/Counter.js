@@ -13,7 +13,7 @@ const decrementCount = () =>{
     // if(count <= 0){
     //     count = 0
     // }
-    //Count was first checked if it is greater than 0, before decrementing
+    //Count was first checked if it is greater than 0 , before decrementing
     if (count > 0) {
       setCount(count - 1);
     } else {
