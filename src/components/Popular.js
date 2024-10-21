@@ -7,7 +7,7 @@ const Popular = () => {
   return (
     <div className="">
         <Container className="popular mt-5 mb-5 p-5">
-                <p className="fs-2 fw-bold text-center hero-header ">Popular Products</p>
+                <p className="fs-2 fw-bold text-center hero-header ">Popular Products for you</p>
                <div className="popular-row">
                  {Data.map((item) =>(
                   < div className=" mb-5" key={item.id}> 
