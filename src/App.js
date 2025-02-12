@@ -10,11 +10,6 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-d
 
 
 function App() {
-  // const [todos, setTodos] = useState([
-  //   { text: 'ribadu ', key: '1' },
-  //   { text: 'abido shaker', key: '2' },
-  //   { text: 'gagan gagantusa', key: '3' }
-  // ]);
 
   return (
     <Router>
