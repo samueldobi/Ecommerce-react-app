@@ -30,7 +30,7 @@ function MyNavbar() {
               
               {/* Logo */}
               <div className="px-4 md:px-0 flex justify-between items-center w-full md:w-auto">
-                <Link to ="/" className="text-xl font-semibold focus:outline-none">
+                <Link to ="/" className="nav-link text-xl font-semibold focus:outline-none">
                   GadgetBoom 
                 </Link>
       
@@ -43,7 +43,7 @@ function MyNavbar() {
                   aria-label="Toggle navigation"
                   onClick={() => setIsOpen(!isOpen)}
                 >
-                  {!isOpen ? <img src="/images/Icons/hamburger-icon.svg" alt="Icon" className="w-6 h-6" /> : "❌"} {/* Fake Icons */}
+                  {!isOpen ? <img src="/images/Icons/hamburger-icon.svg" alt="Icon" className="w-6 h-6" /> : <img src="/images/Icons/redx.png" alt="Icon" className="w-6 h-6" />} 
                 </button>
               </div>
       
@@ -54,19 +54,19 @@ function MyNavbar() {
                   isOpen ? "flex" : "hidden"
                 } flex-col md:flex md:flex-row md:items-center md:justify-end gap-4 md:gap-6 mt-3 md:mt-0 py-2 md:py-0`}
               >
-                <Link to="/" className="text-gray-800 text-lg hover:text-gray-600">
+                <Link to="/" className="nav-link text-gray-800 text-lg hover:text-gray-600">
                   Home
                 </Link>
-                <Link to="/allproducts" className="text-gray-800 text-lg hover:text-gray-600 ">
+                <Link to="/allproducts" className= " nav-link text-gray-800 text-lg hover:text-gray-600 ">
                   All Products
                 </Link>
-                <Link to="/phones" className="text-gray-800 text-lg hover:text-gray-600">
+                <Link to="/phones" className="nav-link text-gray-800 text-lg hover:text-gray-600">
                   Phones
                 </Link>
-                <Link to="/accesories" className="text-gray-800 text-lg hover:text-gray-600">
+                <Link to="/accesories" className="nav-link text-gray-800 text-lg hover:text-gray-600">
                   Accesories
                 </Link>
-                <Link to="/laptops" className="text-gray-800 text-lg hover:text-gray-600">
+                <Link to="/laptops" className="nav-link text-gray-800 text-lg hover:text-gray-600">
                   Laptops
                 </Link>
                 
