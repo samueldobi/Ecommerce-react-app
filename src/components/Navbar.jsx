@@ -26,7 +26,7 @@ function MyNavbar() {
   return (
     <div ref={navbarRef}>
        <header className="sticky top-0 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm hero-header m-2 p-1 ">
-            <nav className="mt-4 relative max-w-6xl w-full border border-gray-200 rounded-[2rem] mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-6 md:mx-auto">
+            <nav className="mt-2 relative max-w-6xl w-full border border-gray-200 rounded-[2rem] mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-6 md:mx-auto">
               
               {/* Logo */}
               <div className="px-4 md:px-0 flex justify-between items-center w-full md:w-auto">
