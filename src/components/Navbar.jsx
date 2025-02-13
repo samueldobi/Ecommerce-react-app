@@ -43,7 +43,7 @@ function MyNavbar() {
                   aria-label="Toggle navigation"
                   onClick={() => setIsOpen(!isOpen)}
                 >
-                  {!isOpen ? <img src="/images/Icons/hamburger-icon.svg" alt="Icon" className="w-5 h-5" /> : "❌"} {/* Fake Icons */}
+                  {!isOpen ? <img src="/images/Icons/hamburger-icon.svg" alt="Icon" className="w-6 h-6" /> : "❌"} {/* Fake Icons */}
                 </button>
               </div>
       
