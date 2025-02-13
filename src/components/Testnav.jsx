@@ -1,19 +1,20 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 
 
 const testnav = () => {
     const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
- <header className="sticky top-0 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm bg-white shadow-md">
+ <header className="sticky top-0 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full text-sm  ">
       <nav className="mt-4 relative max-w-6xl w-full border border-gray-200 rounded-[2rem] mx-2 py-2.5 md:flex md:items-center md:justify-between md:py-0 md:px-6 md:mx-auto">
         
         {/* Logo */}
         <div className="px-4 md:px-0 flex justify-between items-center w-full md:w-auto">
-          <a href="/" className="text-xl font-semibold focus:outline-none">
-            Preline
-          </a>
+          <Link to ="/" className="text-xl font-semibold focus:outline-none">
+            GadgetBoom 
+            <img src="/images/Icons/hamburger-icon.svg" alt="Icon" className="w-10 h-10" />
+          </Link>
 
           {/* Dropdown Toggle Button (Only Visible on Small Screens) */}
           <button
@@ -35,18 +36,23 @@ const testnav = () => {
             isOpen ? "flex" : "hidden"
           } flex-col md:flex md:flex-row md:items-center md:justify-end gap-4 md:gap-6 mt-3 md:mt-0 py-2 md:py-0`}
         >
-          <a href="#" className="text-gray-800 font-medium hover:text-gray-600">
+          <Link to="/" className="text-gray-800 text-lg hover:text-gray-600">
             Home
-          </a>
-          <a href="#" className="text-gray-500 hover:text-gray-800">
-            Projects
-          </a>
-          <a href="#" className="text-gray-500 hover:text-gray-800">
-            Work
-          </a>
-          <a href="#" className="text-gray-500 hover:text-gray-800">
-            Articles
-          </a>
+          </Link>
+          <Link to="/allproducts" className="text-gray-800 text-lg hover:text-gray-600 ">
+            All Products
+          </Link>
+          <Link to="/phones" className="text-gray-800 text-lg hover:text-gray-600">
+            Phones
+          </Link>
+          <Link to="/accesories" className="text-gray-800 text-lg hover:text-gray-600">
+            Accesories
+          </Link>
+          <Link to="/laptops" className="text-gray-800 text-lg hover:text-gray-600">
+            Laptops
+          </Link>
+          
+         
         </div>
       </nav>
     </header>
