@@ -37,7 +37,7 @@ function MyNavbar() {
                 {/* Dropdown Toggle Button (Only Visible on Small Screens) */}
                 <button
                   type="button"
-                  className="md:hidden flex justify-center items-center size-6 border border-gray-200 text-gray-500  focus:outline-none focus:bg-gray-200"
+                  className="md:hidden flex justify-center items-center size-6 border   focus:outline-none focus:bg-gray-200"
                   aria-expanded={isOpen}
                   aria-controls="hs-navbar-header-floating"
                   aria-label="Toggle navigation"
