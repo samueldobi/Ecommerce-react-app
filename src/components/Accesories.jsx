@@ -4,8 +4,8 @@ import Row  from "react-bootstrap/Row";
 import Col  from "react-bootstrap/Col" ;
 import Card from 'react-bootstrap/Card'
 import Data from "../Accesories.json";
-import Counter from './utilities/Counter.js';
-import Btn from './utilities/Btn.js';
+import Counter from './utilities/Counter.jsx';
+import Btn from './utilities/Btn.jsx';
 
 const Accesories = () => {
   return (

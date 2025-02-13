@@ -6,8 +6,8 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import  gadgets from '../images/index.js';
 import Data from '../Phones.json';
-import Btn from './utilities/Btn.js';
-import Counter from './utilities/Counter.js';
+import Btn from './utilities/Btn.jsx';
+import Counter from './utilities/Counter.jsx';
 
 const Phones = () => {
   return (

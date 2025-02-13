@@ -3,7 +3,7 @@ import Hero from "./Hero";
 import Products from "./Products";
 import Popular from "./Popular";
 import Discount from "./Discount";
-import Footer from "./Footer";
+
 
 const Home = () => {
   return (

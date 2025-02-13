@@ -3,7 +3,7 @@ import Row  from "react-bootstrap/Row";
 import Col  from "react-bootstrap/Col" ;
 import Card from 'react-bootstrap/Card';
 import  gadgets from '../images/index.js'
-import Btn from "./utilities/Btn.js";
+import Btn from "./utilities/Btn.jsx";
 import Data from "../Images.json";
 
 
