@@ -3,7 +3,8 @@ import Hero from "./Hero";
 import Products from "./Products";
 import Popular from "./Popular";
 import Discount from "./Discount";
-
+import Testnav from "./Testnav";
+ 
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
     <Products/>
     <Popular/>
     <Discount/>
+    <Testnav/>
     </div>
   )
 }
